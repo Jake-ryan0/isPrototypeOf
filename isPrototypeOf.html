@@ -52,7 +52,7 @@ tests({
     var shouldBeTrue = isPrototypeOf(person, me);
     eq(shouldBeTrue, true);
   },
-  "it should check prototypes recursively": function() {
+  "it should check prototype chain recursively": function() {
     var canine = {
       bark: function() {
         console.log('bark');
